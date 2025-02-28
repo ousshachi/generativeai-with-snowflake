@@ -146,6 +146,7 @@ Apply the analysis to each row in the DataFrame
 df["analysis_results"] = df.apply(lambda row: analyze_transcript(row["transcript"], row["language"]), axis=1)
 
 Print for review
+
 df.show()
 
 
